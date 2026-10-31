@@ -1,0 +1,602 @@
+{
+  "N": 64,
+  "betas": [
+    0.125,
+    1.0,
+    10.0,
+    50.0
+  ],
+  "noisy": {
+    "P16_s0.0": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.08,
+        "mean_fidelity": 0.2919321229269312,
+        "mean_max_weight": 0.07021401854643104,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.97,
+        "mean_fidelity": 0.5993698844761003,
+        "mean_max_weight": 0.15231334285685622,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999997032294524,
+        "mean_max_weight": 0.998580319510905,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 0.9999999999999473,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.08,
+        "mean_fidelity": 0.2919321229269312,
+        "mean_max_weight": 0.07021401854643104,
+        "n": 100
+      }
+    },
+    "P16_s0.15": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.14,
+        "mean_fidelity": 0.2815913522752814,
+        "mean_max_weight": 0.06732526491589735,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.6,
+        "mean_fidelity": 0.46639211594099045,
+        "mean_max_weight": 0.11142657148234614,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.998679919956079,
+        "mean_max_weight": 0.9351232284878844,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999999743778699,
+        "mean_max_weight": 0.9999760177120735,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.14,
+        "mean_fidelity": 0.2815913522752814,
+        "mean_max_weight": 0.06732526491589735,
+        "n": 100
+      }
+    },
+    "P16_s0.3": {
+      "membrane": {
+        "accuracy": 0.89,
+        "mean_fidelity": 0.9041511201711878,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.07,
+        "mean_fidelity": 0.2521553522694525,
+        "mean_max_weight": 0.06548973371238756,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.29,
+        "mean_fidelity": 0.3600950239723192,
+        "mean_max_weight": 0.09018254224870027,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 0.89,
+        "mean_fidelity": 0.9036706405434235,
+        "mean_max_weight": 0.6174435562689576,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 0.89,
+        "mean_fidelity": 0.9209583554696088,
+        "mean_max_weight": 0.9424620409439813,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.07,
+        "mean_fidelity": 0.2521553522694525,
+        "mean_max_weight": 0.06548973371238756,
+        "n": 100
+      }
+    },
+    "P64_s0.0": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.14993098167953256,
+        "mean_max_weight": 0.01767241251252919,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.51,
+        "mean_fidelity": 0.39533024381252185,
+        "mean_max_weight": 0.041171437803471184,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999989412574634,
+        "mean_max_weight": 0.994051181897316,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 0.9999999999999929,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.14993098167953256,
+        "mean_max_weight": 0.01767241251252919,
+        "n": 100
+      }
+    },
+    "P64_s0.15": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.03,
+        "mean_fidelity": 0.16594708489817656,
+        "mean_max_weight": 0.01691624486968793,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.19,
+        "mean_fidelity": 0.3070876635388897,
+        "mean_max_weight": 0.02924930901904513,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9952806172044981,
+        "mean_max_weight": 0.8065009467828353,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999999281898164,
+        "mean_max_weight": 0.9999279517905141,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.03,
+        "mean_fidelity": 0.16594708489817656,
+        "mean_max_weight": 0.01691624486968793,
+        "n": 100
+      }
+    },
+    "P64_s0.3": {
+      "membrane": {
+        "accuracy": 0.81,
+        "mean_fidelity": 0.8305445600735872,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.02,
+        "mean_fidelity": 0.15322760221433673,
+        "mean_max_weight": 0.016432152567604975,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.11,
+        "mean_fidelity": 0.22276585872898,
+        "mean_max_weight": 0.02326888346253783,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 0.84,
+        "mean_fidelity": 0.7932773989779767,
+        "mean_max_weight": 0.3378056889188305,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 0.81,
+        "mean_fidelity": 0.8498979613551101,
+        "mean_max_weight": 0.9257021310446496,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.02,
+        "mean_fidelity": 0.15322760221433673,
+        "mean_max_weight": 0.016432152567604975,
+        "n": 100
+      }
+    },
+    "P256_s0.0": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.13461790878125615,
+        "mean_max_weight": 0.004423420479326776,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.52,
+        "mean_fidelity": 0.3925754796136569,
+        "mean_max_weight": 0.010463513649778324,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999950207011207,
+        "mean_max_weight": 0.9750951072243452,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 0.9999999999996803,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.13461790878125615,
+        "mean_max_weight": 0.004423420479326776,
+        "n": 100
+      }
+    },
+    "P256_s0.15": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.12706545963719926,
+        "mean_max_weight": 0.0042355727283616175,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.14,
+        "mean_fidelity": 0.2624504101513901,
+        "mean_max_weight": 0.007420921196463508,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9821100959266977,
+        "mean_max_weight": 0.5485900101212839,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.998102356585572,
+        "mean_max_weight": 0.9954863017792196,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.12706545963719926,
+        "mean_max_weight": 0.0042355727283616175,
+        "n": 100
+      }
+    },
+    "P256_s0.3": {
+      "membrane": {
+        "accuracy": 0.65,
+        "mean_fidelity": 0.6767693953464438,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.11274070329945239,
+        "mean_max_weight": 0.004106645432425844,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.04,
+        "mean_fidelity": 0.1776786061217649,
+        "mean_max_weight": 0.0058007074633460035,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 0.66,
+        "mean_fidelity": 0.6041467892827936,
+        "mean_max_weight": 0.11246464940900078,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 0.65,
+        "mean_fidelity": 0.7251369794166703,
+        "mean_max_weight": 0.7846287884979839,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.0,
+        "mean_fidelity": 0.11274070329945239,
+        "mean_max_weight": 0.004106645432425844,
+        "n": 100
+      }
+    }
+  },
+  "occluded": {
+    "P16": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.06,
+        "mean_fidelity": 0.27098478663728665,
+        "mean_max_weight": 0.06779039135057296,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.68,
+        "mean_fidelity": 0.4779214849580351,
+        "mean_max_weight": 0.11737327281388212,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9997729188221547,
+        "mean_max_weight": 0.9654517357923135,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999999999999803,
+        "mean_max_weight": 0.9999999626120428,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.06,
+        "mean_fidelity": 0.27098478663728665,
+        "mean_max_weight": 0.06779039135057296,
+        "n": 100
+      }
+    },
+    "P64": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.01,
+        "mean_fidelity": 0.15073844537805095,
+        "mean_max_weight": 0.017037079030924277,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.21,
+        "mean_fidelity": 0.307734480671731,
+        "mean_max_weight": 0.03094028752630048,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9990147333810957,
+        "mean_max_weight": 0.8805735764033917,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999999999988926,
+        "mean_max_weight": 0.9999997211744792,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.01,
+        "mean_fidelity": 0.15073844537805095,
+        "mean_max_weight": 0.017037079030924277,
+        "n": 100
+      }
+    }
+  },
+  "correlated": {
+    "P64_rho0.6": {
+      "membrane": {
+        "accuracy": 0.95,
+        "mean_fidelity": 0.9837061233183653,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.03,
+        "mean_fidelity": 0.7855590654096063,
+        "mean_max_weight": 0.01610818204970651,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.03,
+        "mean_fidelity": 0.7890346232679508,
+        "mean_max_weight": 0.019910964343568243,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 0.56,
+        "mean_fidelity": 0.8533380389665287,
+        "mean_max_weight": 0.14211182753568571,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 0.96,
+        "mean_fidelity": 0.9856028674330537,
+        "mean_max_weight": 0.8820536308917556,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.03,
+        "mean_fidelity": 0.7855590654096063,
+        "mean_max_weight": 0.01610818204970651,
+        "n": 100
+      }
+    },
+    "P64_rho0.9": {
+      "membrane": {
+        "accuracy": 0.34,
+        "mean_fidelity": 0.9399901361001582,
+        "mean_max_weight": 1.0,
+        "n": 100
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.04,
+        "mean_fidelity": 0.9506813311779758,
+        "mean_max_weight": 0.015779827723586846,
+        "n": 100
+      },
+      "hopfield_b1": {
+        "accuracy": 0.04,
+        "mean_fidelity": 0.9508546978847408,
+        "mean_max_weight": 0.01690261923348778,
+        "n": 100
+      },
+      "hopfield_b10": {
+        "accuracy": 0.05,
+        "mean_fidelity": 0.9527846442695587,
+        "mean_max_weight": 0.03326141485604863,
+        "n": 100
+      },
+      "hopfield_b50": {
+        "accuracy": 0.29,
+        "mean_fidelity": 0.9620975924521774,
+        "mean_max_weight": 0.25017520685273564,
+        "n": 100
+      },
+      "attention": {
+        "accuracy": 0.04,
+        "mean_fidelity": 0.9506813311779758,
+        "mean_max_weight": 0.015779827723586846,
+        "n": 100
+      }
+    }
+  },
+  "random_proj": {
+    "P64_s0.15": {
+      "membrane": {
+        "accuracy": 1.0,
+        "mean_fidelity": 1.0,
+        "mean_max_weight": 1.0,
+        "n": 50
+      },
+      "hopfield_b0.125": {
+        "accuracy": 0.02,
+        "mean_fidelity": 0.19118436002530578,
+        "mean_max_weight": 0.016873118699204662,
+        "n": 50
+      },
+      "hopfield_b1": {
+        "accuracy": 0.28,
+        "mean_fidelity": 0.31573631465528534,
+        "mean_max_weight": 0.0286738945930736,
+        "n": 50
+      },
+      "hopfield_b10": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9942651162410651,
+        "mean_max_weight": 0.7738127346988911,
+        "n": 50
+      },
+      "hopfield_b50": {
+        "accuracy": 1.0,
+        "mean_fidelity": 0.9999999950639924,
+        "mean_max_weight": 0.9999669692475353,
+        "n": 50
+      },
+      "attention": {
+        "accuracy": 0.02,
+        "mean_fidelity": 0.19118436002530578,
+        "mean_max_weight": 0.016873118699204662,
+        "n": 50
+      },
+      "attention_random_proj": {
+        "accuracy": 0.02,
+        "mean_fidelity": 0.22467365962944538,
+        "mean_max_weight": 0.01617194179483045,
+        "n": 50
+      }
+    }
+  },
+  "complex_sanity": {
+    "P16_s0.15": 1.0,
+    "P64_s0.15": 1.0
+  },
+  "refusal": {
+    "tau": 0.43,
+    "calibration": {
+      "tau": 0.43,
+      "J": 0.99,
+      "cal_tpr": 0.995,
+      "cal_fpr": 0.005
+    },
+    "test_accept_in": 199,
+    "test_accept_ood": 2,
+    "test_n_in": 200,
+    "test_n_ood": 200,
+    "membrane": {
+      "accuracy_on_accepted": 1.0,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    },
+    "hopfield_b0.125": {
+      "accuracy_on_accepted": 0.04522613065326633,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    },
+    "hopfield_b1": {
+      "accuracy_on_accepted": 0.271356783919598,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    },
+    "hopfield_b10": {
+      "accuracy_on_accepted": 1.0,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    },
+    "hopfield_b50": {
+      "accuracy_on_accepted": 1.0,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    },
+    "attention": {
+      "accuracy_on_accepted": 0.04522613065326633,
+      "coverage_in": 0.995,
+      "false_accept_rate": 0.01
+    }
+  }
+}
